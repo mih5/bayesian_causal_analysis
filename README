@@ -1,0 +1,12 @@
+Bayesian Causal Analysis
+
+RESEARCH QUESTION: Do complementary and alternative asthma treatments
+affect respiratory fitness?
+
+DESCRIPTION: Used subclassification on propensity scores to induce covariate balance.  
+Then used Neyman's repeated sampling approach and Bayesian linear regression/model imputation to estimate the population average treatment effect of complementary and alternative asthma treatments on a measure of respiratory fitness.
+
+FILES:
+fev.csv - data from Chen et. al. study of asthma patients in British Columbia
+analysis.r - anaysis script
+final_project.pdf - report
